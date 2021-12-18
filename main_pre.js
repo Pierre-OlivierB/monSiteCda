@@ -9,6 +9,7 @@ let test = true;
 buttonDesc.addEventListener("click", (e) => {
     event.preventDefault();
     if (test === false) {
+        // faire un tableau/ou un for childNodes.lenght de n nodes pour toutes les supprimer?
         tweetOne.removeChild(tweetOne.childNodes[0]);
         createDescPage(e);
         console.log("oui");
