@@ -11,7 +11,7 @@
     height: 500px;
     transform: translate(350px,100px);
     background:linear-gradient(to top,#556B2F,black);
-    display: flex;
+    display: block;
 }
 .img_ascii{
     width: 29%;
@@ -34,17 +34,17 @@
     justify-content: space-around;
 }
 .head_pages{
-display: flex;
-justify-content: space-around;
-margin-left: -25px;
-margin-right: 25px;
-margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -25px;
+    margin-right: 25px;
+    margin-top: 40px;
 
 }
 .backg_button{
-background-color: transparent;
-border-color: transparent;
-color: white;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
 }
 .img_ascii_tweet{
     width: 12%;
@@ -56,16 +56,26 @@ color: white;
 }
 .white_font_art{
     color: white;
-    width: 100%;
+    width: 80%;
     height: 100px;
     margin-left: 15px;
     margin-right: 15px;
     padding: 10px;
     background-color: rgb(70, 70, 70);
+    transform: translate(100px,-120px);
     /* display: flex;
     justify-content: right;
     align-items: flex-end; */
 }
 .cont_head_arti{
     display: flex;
+    color: white;
+    transform: translate(180px,-40px);
+    justify-content: space-between;
+    min-width: 20%;
+    max-width: 40%;
+}
+.img_verif_top_art{
+    background: no-repeat url("../verif_top_art.png");
+    width: 20px;
 }

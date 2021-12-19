@@ -5,6 +5,21 @@ let buttonMed = document.querySelector("#medium");
 let buttonLove = document.querySelector("#i_like");
 let test = true;
 
+// creation of articles
+let articleOne = document.createElement("article");
+let imageIcon = document.createElement("img");
+let contHeadArti = document.createElement("div");
+// top of all articles
+let imgVerifToArt = document.createElement("li");
+imgVerifToArt.classList.add("img_verif_top_art");
+let timeArtCreation = document.createElement("li");
+timeArtCreation.textContent="@Montpellier . 1sept";
+// top of desciption
+let whoIAm = document.createElement("li");
+
+
+
+
 // Descriptions part
 buttonDesc.addEventListener("click", (e) => {
     event.preventDefault();
@@ -22,14 +37,9 @@ buttonDesc.addEventListener("click", (e) => {
 
 })
 function createDescPage() {
-    let articleOne = document.createElement("article");
-    let imageIcon = document.createElement("img");
-    let contHeadArti = document.createElement("div");
-    let whoIAm = document.createElement("li");
-
-
     articleOne.textContent = "Ceci est un test Desc. Attention!!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate neque velit voluptate ipsam sed corporis quas excepturi nobis quia consectetur nihil aliquid aspernatur placeat harum, enim veritatis nesciunt facere."
     whoIAm.textContent = "Qui je suis?";
+
 
     imageIcon.classList.add("img_ascii_tweet");
     imageIcon.setAttribute("src", "../test ascii.png");
@@ -40,6 +50,8 @@ function createDescPage() {
 
     tweetOne.appendChild(contHeadArti);
     contHeadArti.appendChild(whoIAm);
+    contHeadArti.appendChild(imgVerifToArt);
+    contHeadArti.appendChild(timeArtCreation);
     tweetOne.appendChild(imageIcon);
     tweetOne.appendChild(articleOne);
     test=false;
@@ -61,14 +73,8 @@ buttonLang.addEventListener("click", () => {
 
 })
 function createLangPage() {
-    let articleOne = document.createElement("article");
-    let imageIcon = document.createElement("img");
-    let contHeadArti = document.createElement("div");
-    let whoIAm = document.createElement("li");
-
-
     articleOne.textContent = "Ceci est un test Lang. Attention!!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate neque velit voluptate ipsam sed corporis quas excepturi nobis quia consectetur nihil aliquid aspernatur placeat harum, enim veritatis nesciunt facere."
-    whoIAm.textContent = "Qui je suis?";
+    whoIAm.textContent = "Langages";
 
     imageIcon.classList.add("img_ascii_tweet");
     imageIcon.setAttribute("src", "../test ascii.png");
@@ -79,6 +85,8 @@ function createLangPage() {
 
     tweetOne.appendChild(contHeadArti);
     contHeadArti.appendChild(whoIAm);
+    contHeadArti.appendChild(imgVerifToArt);
+    contHeadArti.appendChild(timeArtCreation);
     tweetOne.appendChild(imageIcon);
     tweetOne.appendChild(articleOne);
     test=false;
@@ -99,14 +107,8 @@ buttonMed.addEventListener("click", () => {
 
 })
 function createMedPage() {
-    let articleOne = document.createElement("article");
-    let imageIcon = document.createElement("img");
-    let contHeadArti = document.createElement("div");
-    let whoIAm = document.createElement("li");
-
-
     articleOne.textContent = "Ceci est un test Med. Attention!!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate neque velit voluptate ipsam sed corporis quas excepturi nobis quia consectetur nihil aliquid aspernatur placeat harum, enim veritatis nesciunt facere."
-    whoIAm.textContent = "Qui je suis?";
+    whoIAm.textContent = "Médias?";
 
     imageIcon.classList.add("img_ascii_tweet");
     imageIcon.setAttribute("src", "../test ascii.png");
@@ -117,6 +119,8 @@ function createMedPage() {
 
     tweetOne.appendChild(contHeadArti);
     contHeadArti.appendChild(whoIAm);
+    contHeadArti.appendChild(imgVerifToArt);
+    contHeadArti.appendChild(timeArtCreation);
     tweetOne.appendChild(imageIcon);
     tweetOne.appendChild(articleOne);
     test=false;
@@ -137,14 +141,8 @@ buttonLove.addEventListener("click", () => {
 
 })
 function createLovePage() {
-    let articleOne = document.createElement("article");
-    let imageIcon = document.createElement("img");
-    let contHeadArti = document.createElement("div");
-    let whoIAm = document.createElement("li");
-
-
     articleOne.textContent = "Ceci est un test Love. Attention!!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate neque velit voluptate ipsam sed corporis quas excepturi nobis quia consectetur nihil aliquid aspernatur placeat harum, enim veritatis nesciunt facere."
-    whoIAm.textContent = "Qui je suis?";
+    whoIAm.textContent = "J'aime?";
 
     imageIcon.classList.add("img_ascii_tweet");
     imageIcon.setAttribute("src", "../test ascii.png");
@@ -155,6 +153,8 @@ function createLovePage() {
 
     tweetOne.appendChild(contHeadArti);
     contHeadArti.appendChild(whoIAm);
+    contHeadArti.appendChild(imgVerifToArt);
+    contHeadArti.appendChild(timeArtCreation);
     tweetOne.appendChild(imageIcon);
     tweetOne.appendChild(articleOne);
     test=false;
