@@ -1,15 +1,37 @@
 # monSiteCda
 ## List To DO:
 
-Partie: main_pre.js
+### Partie: index
+-Structure : Fini. (peut être des ajustement)
+-Contenu: à faire.
+
+### Partie: Présentation
 
 -ajouter un ol aux li ".cont_head_arti" (sup les points devant)
--rentrer le contenu
 -ajouter la partie active : il faut qu'elle soit soulignée
 -ajouter les parties non actives grisée
 -ajouter encadré à mon profil en haut à droite.
+-rentrer le contenu
 
-Partie:
+### Partie: Réalisations
+-Structure : réutiliser la structure d'index
+-Contenu: à faire.
+
+### Partie: Veille
+-Structure : à faire.
+-Contenu: à faire.
+
+### Partie: Plan du site (si le reste fini)
+-Structure : à faire.
+-Contenu: à faire.
+
+### Partie: Contact
+-Structure : à faire.
+-Contenu: à faire.
+
+### Partie: Bopite à idée
+-Structure : à faire.
+-Contenu: à faire.
 
 ## Idées
 
