@@ -79,3 +79,26 @@
     background: no-repeat url("../verif_top_art.png");
     width: 20px;
 }
+.cont_foot_arti{
+    display: flex;
+    color: white;
+    transform: translate(250px,-75px);
+    justify-content: space-between;
+    min-width: 20%;
+    max-width: 40%;
+}
+.img_retweet_bot_art{
+    background: no-repeat url("../retweet_bot_art.png");
+    width: 35px;
+    height: 35px;
+}
+.img_like_bot_art{
+    background: no-repeat url("../like_bot_art.png");
+    width: 35px;
+    height: 35px;
+}
+.img_share_top_art{
+    background: no-repeat url("../share_bot_art.png");
+    width: 35px;
+    height: 35px;
+}

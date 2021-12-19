@@ -9,6 +9,7 @@ let test = true;
 let articleOne = document.createElement("article");
 let imageIcon = document.createElement("img");
 let contHeadArti = document.createElement("div");
+let contFootArti = document.createElement("div");
 // top of all articles
 let imgVerifToArt = document.createElement("li");
 imgVerifToArt.classList.add("img_verif_top_art");
@@ -16,7 +17,13 @@ let timeArtCreation = document.createElement("li");
 timeArtCreation.textContent="@Montpellier . 1sept";
 // top of desciption
 let whoIAm = document.createElement("li");
-
+// bottom of all articles
+let imgReTweet=document.createElement("li");
+imgReTweet.classList.add("img_retweet_bot_art");
+let imgLike=document.createElement("li");
+imgLike.classList.add("img_like_bot_art");
+let imgShare=document.createElement("li");
+imgShare.classList.add("img_share_top_art");
 
 
 
@@ -46,6 +53,7 @@ function createDescPage() {
 
     contHeadArti.classList.add("cont_head_arti");
     articleOne.classList.add("white_font_art");
+    contFootArti.classList.add("cont_foot_arti")
 
 
     tweetOne.appendChild(contHeadArti);
@@ -54,6 +62,10 @@ function createDescPage() {
     contHeadArti.appendChild(timeArtCreation);
     tweetOne.appendChild(imageIcon);
     tweetOne.appendChild(articleOne);
+    tweetOne.appendChild(contFootArti);
+    contFootArti.appendChild(imgReTweet);
+    contFootArti.appendChild(imgLike);
+    contFootArti.appendChild(imgShare);
     test=false;
 }
 
@@ -81,6 +93,7 @@ function createLangPage() {
 
     contHeadArti.classList.add("cont_head_arti");
     articleOne.classList.add("white_font_art");
+    contFootArti.classList.add("cont_foot_arti")
 
 
     tweetOne.appendChild(contHeadArti);
@@ -89,6 +102,10 @@ function createLangPage() {
     contHeadArti.appendChild(timeArtCreation);
     tweetOne.appendChild(imageIcon);
     tweetOne.appendChild(articleOne);
+    tweetOne.appendChild(contFootArti);
+    contFootArti.appendChild(imgReTweet);
+    contFootArti.appendChild(imgLike);
+    contFootArti.appendChild(imgShare);
     test=false;
 }
 // Médias part
@@ -115,6 +132,7 @@ function createMedPage() {
 
     contHeadArti.classList.add("cont_head_arti");
     articleOne.classList.add("white_font_art");
+    contFootArti.classList.add("cont_foot_arti")
 
 
     tweetOne.appendChild(contHeadArti);
@@ -123,6 +141,10 @@ function createMedPage() {
     contHeadArti.appendChild(timeArtCreation);
     tweetOne.appendChild(imageIcon);
     tweetOne.appendChild(articleOne);
+    tweetOne.appendChild(contFootArti);
+    contFootArti.appendChild(imgReTweet);
+    contFootArti.appendChild(imgLike);
+    contFootArti.appendChild(imgShare);
     test=false;
 }
 // J'aime part
@@ -149,6 +171,7 @@ function createLovePage() {
 
     contHeadArti.classList.add("cont_head_arti");
     articleOne.classList.add("white_font_art");
+    contFootArti.classList.add("cont_foot_arti")
 
 
     tweetOne.appendChild(contHeadArti);
@@ -157,6 +180,10 @@ function createLovePage() {
     contHeadArti.appendChild(timeArtCreation);
     tweetOne.appendChild(imageIcon);
     tweetOne.appendChild(articleOne);
+    tweetOne.appendChild(contFootArti);
+    contFootArti.appendChild(imgReTweet);
+    contFootArti.appendChild(imgLike);
+    contFootArti.appendChild(imgShare);
     test=false;
 }
 // function tweetLonger() {
