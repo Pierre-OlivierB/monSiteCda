@@ -10,9 +10,10 @@ buttonDesc.addEventListener("click", (e) => {
     event.preventDefault();
     if (test === false) {
         // faire un tableau/ou un for childNodes.lenght de n nodes pour toutes les supprimer?
-        tweetOne.removeChild(tweetOne.childNodes[0]);
+        while (tweetOne.firstChild) {
+            tweetOne.removeChild(tweetOne.lastChild);
+          }
         createDescPage(e);
-        console.log("oui");
     }
     else {
         createDescPage(e);
@@ -48,9 +49,10 @@ function createDescPage() {
 buttonLang.addEventListener("click", () => {
     event.preventDefault();
     if (test === false) {
-        tweetOne.removeChild();
+        while (tweetOne.firstChild) {
+            tweetOne.removeChild(tweetOne.lastChild);
+          }
         createLangPage();
-        console.log("oui");
     }
     else {
         createLangPage();
@@ -85,9 +87,10 @@ function createLangPage() {
 buttonMed.addEventListener("click", () => {
     event.preventDefault();
     if (test === false) {
-        tweetOne.removeChild();
+        while (tweetOne.firstChild) {
+            tweetOne.removeChild(tweetOne.lastChild);
+          }
         createMedPage();
-        console.log("oui");
     }
     else {
         createMedPage();
@@ -122,9 +125,10 @@ function createMedPage() {
 buttonLove.addEventListener("click", () => {
     event.preventDefault();
     if (test === false) {
-        tweetOne.removeChild();
+        while (tweetOne.firstChild) {
+            tweetOne.removeChild(tweetOne.lastChild);
+          }
         createLovePage();
-        console.log("oui");
     }
     else {
         createLovePage();
