@@ -12,13 +12,15 @@
 -ajouter les parties non actives grisée
 -ajouter encadré à mon profil en haut à droite.
 -rentrer le contenu
+-ajuster la position suivant la taille de l'écran(min-max)
 
 ### Partie: Réalisations
 -Structure : réutiliser la structure d'index
+-ajuster la position suivant la taille de l'écran(min-max)
 -Contenu: à faire.
 
 ### Partie: Veille
--Structure : à faire.
+-ajuster la position suivant la taille de l'écran(min-max)
 -Contenu: à faire.
 
 ### Partie: Plan du site (si le reste fini)

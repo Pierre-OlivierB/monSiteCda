@@ -5,34 +5,39 @@
   }
   .container_veille{
     display: grid;
-  grid-template-columns: repeat (2,1fr);
+  grid-template: "testOneVeille testOneVeille" 300px
+                  "testTwoVeille testTwoVeille"300px
+                  "testThreeVeille testThreeVeille"300px
+                  "testFourVeille testFourVeille" 300px;
   grid-gap: 15px;
-  grid-auto-rows: minmax(100px, auto);
-  
   }
   #testOneVeille{
   background-color: blue;
-  grid-column: 1;
-  grid-row: 1/2;
+  grid-area:testOneVeille;
+  min-width: 300px;
+  max-width: 800px;
   }
   #testTwoVeille{
   background-color: blueviolet;
-  grid-column: 2;
-  grid-row: 1;
+  grid-area:testTwoVeille;
+  min-width: 300px;
+  max-width: 800px;
   }
   #testThreeVeille{
   background-color: brown;
-  grid-column: 1;
-  grid-row: 3/2;
+  grid-area:testThreeVeille;
+  min-width: 300px;
+  max-width: 800px;
   }
   #testFourVeille{
   background-color: cadetblue;
-  grid-column: 2;
-  grid-row: 2;
+  grid-area:testFourVeille;
+  min-width: 300px;
+  max-width: 800px;
   }
   .transformTestVeille{
   transform: translateY(50px);
   }
   .experimentVeille{
-    height: 800px;
+    height: 120px;
   }
