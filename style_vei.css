@@ -14,30 +14,26 @@
   #testOneVeille{
   background-color: blue;
   grid-area:testOneVeille;
-  min-width: 300px;
-  max-width: 800px;
+  width: 60%;
   }
   #testTwoVeille{
   background-color: blueviolet;
   grid-area:testTwoVeille;
-  min-width: 300px;
-  max-width: 800px;
+  width: 60%;
   }
   #testThreeVeille{
   background-color: brown;
   grid-area:testThreeVeille;
-  min-width: 300px;
-  max-width: 800px;
+  width: 60%;
   }
   #testFourVeille{
   background-color: cadetblue;
   grid-area:testFourVeille;
-  min-width: 300px;
-  max-width: 800px;
+  width: 60%;
   }
   .transformTestVeille{
   transform: translateY(50px);
   }
   .experimentVeille{
-    height: 120px;
+    height: 200px;
   }

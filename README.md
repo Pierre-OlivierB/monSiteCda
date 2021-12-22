@@ -32,7 +32,8 @@
 -Contenu: à faire.
 
 ### Partie: Boîte à idée
--Structure : à faire.
+-Ajuster les tailles
+-Centrer les titres
 -Contenu: à faire.
 
 ## Idées
