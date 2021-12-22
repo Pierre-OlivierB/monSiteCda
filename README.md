@@ -29,7 +29,7 @@
 -Structure : à faire.
 -Contenu: à faire.
 
-### Partie: Bopite à idée
+### Partie: Boîte à idée
 -Structure : à faire.
 -Contenu: à faire.
 
