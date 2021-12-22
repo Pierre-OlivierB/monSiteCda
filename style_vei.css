@@ -1,0 +1,38 @@
+.card_veille{
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .container_veille{
+    display: grid;
+  grid-template-columns: repeat (2,1fr);
+  grid-gap: 15px;
+  grid-auto-rows: minmax(100px, auto);
+  
+  }
+  #testOneVeille{
+  background-color: blue;
+  grid-column: 1;
+  grid-row: 1/2;
+  }
+  #testTwoVeille{
+  background-color: blueviolet;
+  grid-column: 2;
+  grid-row: 1;
+  }
+  #testThreeVeille{
+  background-color: brown;
+  grid-column: 1;
+  grid-row: 3/2;
+  }
+  #testFourVeille{
+  background-color: cadetblue;
+  grid-column: 2;
+  grid-row: 2;
+  }
+  .transformTestVeille{
+  transform: translateY(50px);
+  }
+  .experimentVeille{
+    height: 800px;
+  }
