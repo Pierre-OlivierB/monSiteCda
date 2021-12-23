@@ -11,11 +11,8 @@
 -ajouter la partie active : il faut qu'elle soit soulignée
 -ajouter les parties non actives grisée
 -ajouter encadré à mon profil en haut à droite.
--rentrer le contenu
--ajuster la position suivant la taille de l'écran(min-max)
 
 ### Partie: Réalisations
--Structure : réutiliser la structure d'index
 -ajuster la position suivant la taille de l'écran(min-max)
 -Contenu: à faire.
 
@@ -41,6 +38,8 @@
 -dans boîte à idée : kit de survi (protocol git/github/liste de site à connaître)
 
 ## Done
-
+-rentrer le contenu Présentation
+-Structure : réutiliser la structure d'index Realisations
+-ajuster la position suivant la taille de l'écran(min-max) Index
 -faire en sorte de créer les articles correspondant au pages cliquées.
 -ajouter les images du dessous (retweet/like/partager)

@@ -86,12 +86,8 @@ function createDescPage() {
     createSecDesc();
     createThiDesc();
 }
-// creation 1srt article
-function createFirstDesc() {
-    articleOne.textContent = "– 2018-2021 : Surveillant d'étude à l'Ecole Perceval (Primaire, Collège, Lycée), Chatou \ngestion de salle d'étude  , suivi des élèves et de leur carnets  , réunion parents  ,participation aux événements de l'école."
-    whoIAm.textContent = "Qui je suis?";
 
-
+function createFirst() {
     imageIcon.classList.add("img_ascii_tweet");
     imageIcon.setAttribute("src", "../test ascii.png");
 
@@ -110,14 +106,8 @@ function createFirstDesc() {
     contFootArti.appendChild(imgReTweet);
     contFootArti.appendChild(imgLike);
     contFootArti.appendChild(imgShare);
-    test=false;
 }
-// creation 2sd article
-function createSecDesc() {
-    articleTwo.textContent = "– 2016-2018: Assistant d'éducation au Lycée Polyvalent Jeanne d'Arc Rennes et au Lycée Polyvalent Jean Baptiste Poquelin Saint Germain en Laye,suivi des appels  , accompagnement des élèves  , surveillance d'examens."
-    whoIAmTwo.textContent = "Qui je suis?";
-
-
+function createSecond() {
     imageIconTwo.classList.add("img_ascii_tweet");
     imageIconTwo.setAttribute("src", "../test ascii.png");
 
@@ -136,14 +126,8 @@ function createSecDesc() {
     contFootArtiTwo.appendChild(imgReTweetTwo);
     contFootArtiTwo.appendChild(imgLikeTwo);
     contFootArtiTwo.appendChild(imgShareTwo);
-    test=false;
 }
-// creation 3td article
-function createThiDesc() {
-    articleThree.textContent = "– Autres postes :Equipier McDonald’s Montpellier et Vannes  & Tuteur de 1ère année à l’Université Montpellier 3  &Surveillant de partiels à l’Ecole Supérieur d’Architecture de Montpellier."
-    whoIAmThree.textContent = "Qui je suis?";
-
-
+function createThird() {
     imageIconThree.classList.add("img_ascii_tweet");
     imageIconThree.setAttribute("src", "../test ascii.png");
 
@@ -162,6 +146,28 @@ function createThiDesc() {
     contFootArtiThree.appendChild(imgReTweetThree);
     contFootArtiThree.appendChild(imgLikeThree);
     contFootArtiThree.appendChild(imgShareThree);
+}
+// creation 1srt article
+function createFirstDesc() {
+    articleOne.textContent = "De 2018 à 2021 j'étais Surveillant de l'étude à l'Ecole Perceval (Primaire, Collège, Lycée) dans la ville de Chatou.";
+    articleOne.textContent+=" Le coeur de mes actions tournaient autour de la gestion de salle d'étude, le suivi des élèves et de leur carnets, les réunions avec les parents et biensur la participation aux événements de l'école."; 
+    whoIAm.textContent = "Qui je suis?";
+    createFirst();
+    test=false;
+}
+// creation 2sd article
+function createSecDesc() {
+    articleTwo.textContent = "De 2016 à 2018 j'étais Assistant d'éducation au Lycée Polyvalent Jeanne d'Arc de Rennes et au Lycée Polyvalent Jean Baptiste Poquelin de Saint Germain en Laye l'année d'après."
+    articleTwo.textContent += " Mes actions tournaient autour du suivi des appels, de l'accompagnement des élèves et de la surveillance d'examens."
+    whoIAmTwo.textContent = "Qui je suis?";
+    createSecond();
+    test=false;
+}
+// creation 3td article
+function createThiDesc() {
+    articleThree.textContent = "Pêle-mêle j'ai aussi été Equipier McDonald’s de Montpellier et de Vannes, ainsi que Tuteur de 1ère année à l’Université de Montpellier 3  et Surveillant de partiels à l’Ecole Supérieur d’Architecture de Montpellier à d'autres occasions."
+    whoIAmThree.textContent = "Qui je suis?";
+    createThird();
     test=false;
 }
 
@@ -181,28 +187,29 @@ buttonLang.addEventListener("click", () => {
 
 })
 function createLangPage() {
-    articleOne.textContent = "– Les Langages: \nHtml ,Css,Js,Json"
-    whoIAm.textContent = "Langages";
-
-    imageIcon.classList.add("img_ascii_tweet");
-    imageIcon.setAttribute("src", "../test ascii.png");
-
-    contHeadArti.classList.add("cont_head_arti");
-    articleOne.classList.add("white_font_art");
-    contFootArti.classList.add("cont_foot_arti")
-
-
-    tweetOne.appendChild(contHeadArti);
-    contHeadArti.appendChild(whoIAm);
-    contHeadArti.appendChild(imgVerifToArt);
-    contHeadArti.appendChild(timeArtCreation);
-    tweetOne.appendChild(imageIcon);
-    tweetOne.appendChild(articleOne);
-    tweetOne.appendChild(contFootArti);
-    contFootArti.appendChild(imgReTweet);
-    contFootArti.appendChild(imgLike);
-    contFootArti.appendChild(imgShare);
+    createFirstLang();
+    createSecLang();
+    createThiLang();
     test=false;
+}
+// 1rst article
+function createFirstLang() {
+    articleOne.textContent = "Les Langages que je pratique sont: Html, Css, JS, Java!"
+    whoIAm.textContent = "Langages";
+    createFirst();
+   
+}
+// 2sd article 
+function createSecLang() {
+    articleTwo.textContent = "Les Frameworks que j'utilise sont: Bootstrap, Materialize, jQuery, Three.js"
+    whoIAmTwo.textContent = "Langages";
+    createSecond();
+}
+// 3thrd article
+function createThiLang() {
+    articleThree.textContent = "Il nous reste les Logiciels que j'utilise: Visual Studio Code, draw.io, looping-mcd, FileZilla, WordPress, Fetch, Vite.js, GitHub, Eclypse."
+    whoIAmThree.textContent = "Langages";
+    createThird();
 }
 // Médias part
 buttonMed.addEventListener("click", () => {
@@ -220,28 +227,25 @@ buttonMed.addEventListener("click", () => {
 
 })
 function createMedPage() {
-    articleOne.textContent = "–Septembre 2021 à Juin 2022 : Formation Concepteur Développeur D'Applications (CDA) GRETA  en cours."
-    whoIAm.textContent = "Médias?";
-
-    imageIcon.classList.add("img_ascii_tweet");
-    imageIcon.setAttribute("src", "../test ascii.png");
-
-    contHeadArti.classList.add("cont_head_arti");
-    articleOne.classList.add("white_font_art");
-    contFootArti.classList.add("cont_foot_arti")
-
-
-    tweetOne.appendChild(contHeadArti);
-    contHeadArti.appendChild(whoIAm);
-    contHeadArti.appendChild(imgVerifToArt);
-    contHeadArti.appendChild(timeArtCreation);
-    tweetOne.appendChild(imageIcon);
-    tweetOne.appendChild(articleOne);
-    tweetOne.appendChild(contFootArti);
-    contFootArti.appendChild(imgReTweet);
-    contFootArti.appendChild(imgLike);
-    contFootArti.appendChild(imgShare);
+    createFirstMed();
+    createSecMed();
+    createThiMed();
     test=false;
+}
+function createFirstMed() {
+    articleOne.textContent = "Voici ma dernière formation elle a débuté en Septembre 2021 et elle continue jusqu'en Juin 2022. Elle amène au titre professionnel de Concepteur Développeur D'Applications (CDA) et cela grâce au GRETA Montpellier."
+    whoIAmTwo.textContent = "Médias?";
+    createFirst();
+}
+function createSecMed() {
+    articleTwo.textContent = "Ma dernière formation remonte en Août 2012. C'était une Licence de Psychologie à Montpellier dans l'Université Montpellier 3 (UM3)."
+    whoIAmTwo.textContent = "Médias?";
+    createSecond();
+}
+function createThiMed() {
+    articleThree.textContent = "Ma première formation s'est finie en Octobre 2009 par le Baccalauréat Série Scientifique."
+    whoIAmThree.textContent = "Médias?";
+    createThird();
 }
 // J'aime part
 buttonLove.addEventListener("click", () => {
@@ -259,28 +263,26 @@ buttonLove.addEventListener("click", () => {
 
 })
 function createLovePage() {
-    articleOne.textContent = "Dans mes temps libre j'aime écrire (roman, jeux de rôle en tant que Maître de Jeu), pratique du jeux vidéo (stratégie, aventure) et lire l'actualité (technologie, science, langages)."
-    whoIAm.textContent = "J'aime?";
+    createFirstLove();
+    createSecLove();
+    createThiLove();
 
-    imageIcon.classList.add("img_ascii_tweet");
-    imageIcon.setAttribute("src", "../test ascii.png");
-
-    contHeadArti.classList.add("cont_head_arti");
-    articleOne.classList.add("white_font_art");
-    contFootArti.classList.add("cont_foot_arti")
-
-
-    tweetOne.appendChild(contHeadArti);
-    contHeadArti.appendChild(whoIAm);
-    contHeadArti.appendChild(imgVerifToArt);
-    contHeadArti.appendChild(timeArtCreation);
-    tweetOne.appendChild(imageIcon);
-    tweetOne.appendChild(articleOne);
-    tweetOne.appendChild(contFootArti);
-    contFootArti.appendChild(imgReTweet);
-    contFootArti.appendChild(imgLike);
-    contFootArti.appendChild(imgShare);
     test=false;
+}
+function createFirstLove() {
+    articleOne.textContent = "Dans mes temps libre j'aime écrire autant des romans, des jeux de rôle et je les organise en tant que Maître de Jeu. Je pratique les jeux vidéo autant ceux de stratégie que d'aventure."
+    whoIAm.textContent = "J'aime?";
+    createFirst();
+}
+function createSecLove() {
+    articleTwo.textContent = "Dans le cadre de mes études j'ai appris l'Anglais et l'Espagnol. De plus je m'intéresse à l'humain en général et je suis toujours curieux des dernières recherches en psychologie."
+    whoIAmTwo.textContent = "J'aime?";
+    createSecond();
+}
+function createThiLove() {
+    articleThree.textContent = "Je continue de lire l'actualité sur de nombreux sujet comme la technologie, science et maintenant le langage. Grâce à ma nouvelle formation, il me plaît de jouer avec certain codes."
+    whoIAmThree.textContent = "J'aime?";
+    createThird();
 }
 // function tweetLonger() {
 
