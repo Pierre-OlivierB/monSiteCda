@@ -102,3 +102,10 @@
     width: 35px;
     height: 35px;
 }
+.constructor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}

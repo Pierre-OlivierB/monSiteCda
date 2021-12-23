@@ -40,33 +40,33 @@ body{
 }
 .container{
   display: grid;
-grid-template-columns: repeat (2,1fr);
-grid-gap: 15px;
-grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: repeat (2,1fr);
+  grid-gap: 15px;
+  grid-auto-rows: minmax(200px, auto);
 
 }
 #testOne{
-background-color: blue;
-grid-column: 1;
-grid-row: 1/2;
+  background-color: blue;
+  grid-column: 2;
+  grid-row: 1/2;
 }
 #testTwo{
-background-color: blueviolet;
-grid-column: 2;
-grid-row: 1;
+  background-color: blueviolet;
+  grid-column: 1;
+  grid-row: 1;
 }
 #testThree{
-background-color: brown;
-grid-column: 1;
-grid-row: 3/2;
+  background-color: brown;
+  grid-column: 2;
+  grid-row: 3/2;
 }
 #testFour{
-background-color: cadetblue;
-grid-column: 2;
-grid-row: 2;
+  background-color: cadetblue;
+  grid-column: 1;
+  grid-row: 2;
 }
 .transformTest{
-transform: translateY(50px);
+  transform: translateY(50px);
 }
 .experiment{
   height: 860px;
