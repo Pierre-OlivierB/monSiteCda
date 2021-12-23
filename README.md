@@ -28,12 +28,12 @@
 -Contenu: à faire.
 
 ### Partie: Contact
--Structure : à faire.
+-Ajuster les tailles
+-Centrer les titres
 -Contenu: à faire.
 
 ### Partie: Boîte à idée
--Ajuster les tailles
--Centrer les titres
+
 -Contenu: à faire.
 
 ## Idées

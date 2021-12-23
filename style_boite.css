@@ -5,31 +5,35 @@
   }
   .container_Boite{
     display: grid;
-  grid-template: "testOneBoite testOneBoite" 300px
-                  "testTwoBoite testTwoBoite"300px
-                  "testThreeBoite testThreeBoite"300px
-                  "testFourBoite testFourBoite" 300px;
-  grid-gap: 15px;
-  transform: translateX(20%);
+    grid-template: "testOneBoite testOneBoite" 40%
+                  "testTwoBoite testTwoBoite"40%;
+    grid-gap: 50px;
+    transform: translateX(20%);
   }
   #testOneBoite{
-  background-color: blue;
-  grid-area:testOneBoite;
-  width: 60%;
+    background: 
+    linear-gradient(to bottom,#556B2F,#808000);
+    grid-area:testOneBoite;
+    width: 60%;
   }
   #testTwoBoite{
-  background-color: blueviolet;
-  grid-area:testTwoBoite;
-  width: 60%;
+    background: 
+    linear-gradient(to bottom,#556B2F,#808000);
+    grid-area:testTwoBoite;
+    width: 60%;
   }
-  #testThreeBoite{
-  background-color: brown;
-  grid-area:testThreeBoite;
-  width: 60%;
-  }
-  #testFourBoite{
-  background-color: cadetblue;
-  grid-area:testFourBoite;
-  width: 60%;
-  }
-
+.white_card{
+    width:80%;
+    height: 30%;
+    background-color: white;
+    margin-left: 10%;
+}
+.img_dim{
+    margin-top: 3%;
+    width: 80%;
+    height: 60%;
+}
+.center_page{
+    display: flex;
+    justify-content: center;
+}
