@@ -8,7 +8,7 @@
 }
 .container_modif{
     width: 800px;
-    height: 500px;
+    height: 750px;
     transform: translate(350px,100px);
     background:linear-gradient(to top,#556B2F,black);
     display: block;
@@ -47,8 +47,8 @@
     color: white;
 }
 .img_ascii_tweet{
-    width: 12%;
-    height: 20%;
+    width: 90px;
+    height: 100px;
     contain: size;
     transform: translateY(-55px);
     border-radius: 50%;
@@ -108,4 +108,10 @@
     justify-content: center;
     align-items: center;
     width: 60%;
+}
+body{
+    background-image: linear-gradient(to bottom, rgba(0,0,0, 0.7), rgb(255, 255, 255)), url(./olivier.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed, local;  
 }

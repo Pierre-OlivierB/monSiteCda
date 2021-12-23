@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 // effet escalier:
 let testOne = document.querySelector('#testOne');
-let positionTestOne = -250;
+let positionTestOne = -350;
 let testTwo = document.querySelector('#testTwo');
 let positionTestTwo = -400;
 let testThree = document.querySelector('#testThree');
