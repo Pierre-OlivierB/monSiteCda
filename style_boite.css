@@ -1,0 +1,35 @@
+.card_Boite{
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .container_Boite{
+    display: grid;
+  grid-template: "testOneBoite testOneBoite" 300px
+                  "testTwoBoite testTwoBoite"300px
+                  "testThreeBoite testThreeBoite"300px
+                  "testFourBoite testFourBoite" 300px;
+  grid-gap: 15px;
+  transform: translateX(20%);
+  }
+  #testOneBoite{
+  background-color: blue;
+  grid-area:testOneBoite;
+  width: 60%;
+  }
+  #testTwoBoite{
+  background-color: blueviolet;
+  grid-area:testTwoBoite;
+  width: 60%;
+  }
+  #testThreeBoite{
+  background-color: brown;
+  grid-area:testThreeBoite;
+  width: 60%;
+  }
+  #testFourBoite{
+  background-color: cadetblue;
+  grid-area:testFourBoite;
+  width: 60%;
+  }
+
