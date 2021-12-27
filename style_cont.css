@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 800px;
 
 }
 .card_link{
@@ -19,7 +20,7 @@
     justify-content: center;
     background-color: #0050ef;
     height: 100%;
-    width: 100%;
+    width: 700px;
 }
 .card_twit{
     display: flex;
@@ -27,7 +28,7 @@
     justify-content: center;
     background-color:   #1ca5b8;
     height: 100%;
-    width: 100%;
+    width: 700px;
 }
 .card_gitH{
     display: flex;
@@ -35,5 +36,5 @@
     justify-content: center;
     background-color:   #ffbc26;
     height: 100%;
-    width: 100%;
+    width: 700px;
 }

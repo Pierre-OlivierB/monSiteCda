@@ -12,12 +12,14 @@
   grid-gap: 15px;
   }
   #testOneVeille{
-  background: no-repeat url("./screen_page_veille_threejs.jpg");
+  background: linear-gradient(to top, rgb(8, 8, 8,.6), rgb(246, 241, 241,.2)),
+  center no-repeat url("./screen_page_veille_threejs.jpg");
   grid-area:testOneVeille;
   width: 60%;
   }
   #testTwoVeille{
-  background: no-repeat url("./screen_page_veille_materialize.jpg");
+  background: linear-gradient(to top, rgb(8, 8, 8,.6), rgb(246, 241, 241,.2)),
+  center no-repeat url("./screen_page_veille_materialize.jpg");
   grid-area:testTwoVeille;
   width: 60%;
   }

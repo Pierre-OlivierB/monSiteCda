@@ -34,7 +34,7 @@ body{
   }
 
  .card_presentation{
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   border: 1px solid black;
   text-align: center;
 }
@@ -46,22 +46,22 @@ body{
 
 }
 #testOne{
-  background-color: blue;
+  /* background-color: blue; */
   grid-column: 2;
   grid-row: 1/2;
 }
 #testTwo{
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   grid-column: 1;
   grid-row: 1;
 }
 #testThree{
-  background-color: brown;
+  /* background-color: brown; */
   grid-column: 2;
   grid-row: 3/2;
 }
 #testFour{
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
   grid-column: 1;
   grid-row: 2;
 }
