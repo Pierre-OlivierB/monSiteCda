@@ -108,6 +108,27 @@ body{
   width: 100%;
   height: 100%;
 }
+.img_card_pres{
+  background: linear-gradient(to top, rgb(8, 8, 8,.6), rgb(246, 241, 241,.2)),
+              center/contain no-repeat url("./screen_page_description.jpg");
+}
+.img_card_rea{
+  background: linear-gradient(to top, rgb(8, 8, 8,.6), rgb(246, 241, 241,.2)),
+              center/contain no-repeat url("./screen_page_realisations.jpg");
+}
+.img_card_vei{
+  background: linear-gradient(to top, rgb(8, 8, 8,.6), rgb(246, 241, 241,.2)),
+              center/contain no-repeat url("./screen_page_veille.jpg");
+}
+.img_card_cont{
+  background: linear-gradient(to top, rgb(8, 8, 8,.6), rgb(246, 241, 241,.2)),
+              center/contain no-repeat url("./screen_page_contact.jpg");
+}
+.card_index{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
   /* test */
   /* fin test */
 
