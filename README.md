@@ -2,8 +2,8 @@
 ## List To DO:
 
 ### Partie: index
--Structure : Fini. (peut être des ajustement)
--Contenu: à faire.
+-Structure : Fini. (peut être des ajustements)
+-Contenu: à ajuster.
 
 ### Partie: Présentation
 
@@ -13,12 +13,10 @@
 -ajouter encadré à mon profil en haut à droite.
 
 ### Partie: Réalisations
--ajuster la position suivant la taille de l'écran(min-max)
--Contenu: à faire.
+-Contenu: à ajuster.
 
 ### Partie: Veille
--ajuster la position suivant la taille de l'écran(min-max)
--Contenu: à faire.
+-Contenu: à ajuster.
 
 ### Partie: Plan du site (si le reste fini)
 -Structure : à faire.
@@ -29,8 +27,11 @@
 -Centrer les titres
 -Contenu: à faire.
 
-### Partie: Boîte à idée
+### Partie: Boîte à idées
+-Contenu: à faire.
 
+### Partie: Warning, Kit de survie
+-Structure : à faire.
 -Contenu: à faire.
 
 ## Idées
@@ -38,6 +39,8 @@
 -dans boîte à idée : kit de survi (protocol git/github/liste de site à connaître)
 
 ## Done
+-ajuster la position suivant la taille de l'écran(min-max) Veille
+-ajuster la position suivant la taille de l'écran(min-max) Réalisations
 -rentrer le contenu Présentation
 -Structure : réutiliser la structure d'index Realisations
 -ajuster la position suivant la taille de l'écran(min-max) Index
