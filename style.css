@@ -74,7 +74,40 @@ body{
 .nav_position{
   transform: translate(25px,150px);
 }
-
+.three_right_buttons{
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav_card_link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 30%;
+  background:center no-repeat url("./linkdin_button.png");
+}
+.nav_card_twit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 30%;
+  background:center no-repeat url("./github_button.png");
+}
+.nav_card_gitH{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 30%;
+  background:center no-repeat url("./warning_button.png");
+}
+.nav_redirec_contact{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
   /* test */
   /* fin test */
 
