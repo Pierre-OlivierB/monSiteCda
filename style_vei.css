@@ -12,16 +12,16 @@
   grid-gap: 15px;
   }
   #testOneVeille{
-  background-color: blue;
+  background: no-repeat url("./screen_page_veille_threejs.jpg");
   grid-area:testOneVeille;
   width: 60%;
   }
   #testTwoVeille{
-  background-color: blueviolet;
+  background: no-repeat url("./screen_page_veille_materialize.jpg");
   grid-area:testTwoVeille;
   width: 60%;
   }
-  #testThreeVeille{
+  /* #testThreeVeille{
   background-color: brown;
   grid-area:testThreeVeille;
   width: 60%;
@@ -30,10 +30,15 @@
   background-color: cadetblue;
   grid-area:testFourVeille;
   width: 60%;
-  }
+  } */
   .transformTestVeille{
   transform: translateY(50px);
   }
   .experimentVeille{
     height: 200px;
+  }
+  .clay{
+    display: flex;
+    width: 100%;
+    height: 100%;
   }
