@@ -58,3 +58,27 @@ function changerStyle() {
     + "px; border-radius: " + chiffre[4].value 
     + "px; transform:translateX(50px) rotate(" + chiffre[5].value + "deg)";
 }
+
+// boite 4
+
+function launchChange() {
+    changeImage();
+    setInterval(changeImage,3000);
+}
+var bool2;
+function changeImage() {
+
+    let Image1 = new Image(300, 400);
+        Image1.src="11.jpg";
+    let Image2 = new Image(300, 400);
+        Image2.src="12.jpg";
+    let images =[Image1,Image2];
+    if (bool2==true) {
+        bool2=false;
+        document.getElementById('switch').src=images[0].src;
+    }
+    else{
+        bool2=true;
+        document.getElementById('switch').src=images[1].src;
+    }
+}
