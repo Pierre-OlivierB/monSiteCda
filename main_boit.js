@@ -44,3 +44,17 @@ function affiche(chaine) {
         return true;
     }
 }
+// boîte 3
+
+function changerStyle() {
+    let chiffre = document.querySelectorAll(".chiffre_choisi");
+    let choix_couleur = 255 - chiffre[0].value;
+    // result = white
+    document.querySelector("#carte").style = "background-color:rgb(" 
+    + choix_couleur + "," + choix_couleur + "," + choix_couleur 
+    + "); padding:" + chiffre[1].value 
+    + "px; height:" + chiffre[2].value 
+    + "px; width:" + chiffre[3].value 
+    + "px; border-radius: " + chiffre[4].value 
+    + "px; transform:translateX(50px) rotate(" + chiffre[5].value + "deg)";
+}

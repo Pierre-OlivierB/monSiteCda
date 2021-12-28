@@ -28,6 +28,8 @@
     background-color: white;
     margin-left: 10%;
     margin-bottom: 10%;
+    overflow: scroll;
+    text-overflow: ellipsis;
 }
 .img_dim{
     margin-top: 3%;
@@ -37,4 +39,42 @@
 .center_page{
     display: flex;
     justify-content: center;
+}
+/* boîte 2 */
+.container_boite2{
+  width: 100%;
+  height: 50%;
+}
+.box_boite2{
+  width: 100%;
+  height: 25%;
+  border: 1px solid black;
+  background-color: rgb(255,215,215);
+}
+@media screen and (min-width: 900px) and (max-width: 1300px){
+  .box_boite2{
+    background-color: red;
+    transition: background-color 5s ease-in-out;
+  }
+}
+/* boîte 3 */
+.table{
+  border: double black 2px;
+  width: 100%;
+  height: 100%;
+}
+.line_table{
+  border: solid black 1px;
+  height: 10%;
+}
+.card_turn{
+  width: 300px;
+  text-align: center;
+  font-size:30px ;
+}
+.color{
+  background-color:white
+}
+.line_flex{
+  display: flex;
 }
