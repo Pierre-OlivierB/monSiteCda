@@ -28,7 +28,7 @@
 -Contenu: à faire.
 
 ### Partie: Boîte à idées
--Contenu: à faire.
+-Ajustements? A vérifier.
 
 ### Partie: Warning, Kit de survie
 -Structure : à faire.
