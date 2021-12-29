@@ -8,9 +8,6 @@
 -ajouter les parties non actives grisée
 -ajouter encadré à mon profil en haut à droite.
 
-### Partie: barreNav
--Contenu à ranger.
-
 ### Partie: Plan du site (si le reste fini)
 -Structure : à faire.
 -Contenu: à faire.
@@ -39,4 +36,6 @@ Partie: Warning, Kit de survie
 -Contenu: à ajuster.
 Partie: index
 -Contenu: à ajuster.
+Partie: barreNav
+-Contenu à ranger.
 
