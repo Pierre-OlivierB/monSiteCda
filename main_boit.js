@@ -82,3 +82,4 @@ function changeImage() {
         document.getElementById('switch').src=images[1].src;
     }
 }
+
