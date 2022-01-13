@@ -63,7 +63,8 @@ imgLikeThree.classList.add("img_like_bot_art");
 let imgShareThree=document.createElement("li");
 imgShareThree.classList.add("img_share_top_art");
 
-
+//chargement de la première page au chargement de la page
+window.onload=createDescPage();
 // Descriptions part
 buttonDesc.addEventListener("click", (e) => {
     event.preventDefault();
