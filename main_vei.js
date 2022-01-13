@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function () {
+  let side = document.querySelectorAll('.sidenav');
+  M.Sidenav.init(side);
+});
 // effet escalier:
 let testOneVeille = document.querySelector('#testOneVeille');
 let positionTestOneVeille = -430;
