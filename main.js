@@ -79,6 +79,5 @@ function calculPosition(){
   else{
   positionTestOne+=ajout;
   testOne.setAttribute("style", `transform:translateY(${positionTestOne}px)`);
-  console.log(positionTestOne);
   }
 }
