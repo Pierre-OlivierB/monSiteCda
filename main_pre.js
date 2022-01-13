@@ -151,7 +151,7 @@ function createThird() {
 // creation 1srt article
 function createFirstDesc() {
     articleOne.textContent = "De 2018 à 2021 j'étais Surveillant de l'étude à l'Ecole Perceval (Primaire, Collège, Lycée) dans la ville de Chatou.";
-    articleOne.textContent+=" Le coeur de mes actions tournaient autour de la gestion de salle d'étude, le suivi des élèves et de leur carnets, les réunions avec les parents et biensur la participation aux événements de l'école."; 
+    articleOne.textContent+=" Le coeur de mes actions tournait autour de la gestion de salle d'étude, le suivi des élèves et de leur carnets, les réunions avec les parents et biensur la participation aux événements de l'école."; 
     whoIAm.textContent = "Qui je suis?";
     createFirst();
     test=false;
